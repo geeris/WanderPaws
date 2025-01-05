@@ -1,0 +1,6 @@
+@BudgetBloom.Server_HostAddress = http://localhost:5209
+
+GET {{BudgetBloom.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

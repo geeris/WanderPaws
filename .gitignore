@@ -1,0 +1,14 @@
+/.github
+/BudgetBloom.Application/bin
+/BudgetBloom.Application/obj
+/.vs
+/BudgetBloom.DataAccess/bin
+/BudgetBloom.DataAccess/obj
+/BudgetBloom.Domain/obj
+/BudgetBloom.Domain/bin
+/BudgetBloom.Implementation/obj
+/BudgetBloom.Implementation/bin
+/BudgetBloom.Server/obj
+/BudgetBloom.Server/bin
+*.user
+*.suo

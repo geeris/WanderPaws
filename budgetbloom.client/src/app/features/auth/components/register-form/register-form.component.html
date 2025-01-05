@@ -1,0 +1,30 @@
+<div class="grid h-screen w-full justify-content-center align-items-center">
+    <div class="surface-card p-4 shadow-2 border-round w-full lg:w-4 md:w-6 sm:w-7 col-12">
+        <div class="text-center mb-4">
+            <h2 class="mb-3">Create your account</h2>
+            <span class="line-height-3">Please enter your details</span>
+        </div>
+
+        <form (ngSubmit)="register()">
+            <div class="flex flex-column gap-2 text-left mb-4">
+                <label for="email">E-mail</label>
+                <input pInputText id="email" name="email" [(ngModel)]="user.email" aria-describedby="email-help" required />
+            </div>
+            <div class="flex flex-column gap-2 text-left mb-4">
+                <label for="password">Password</label>
+                <input pInputText type="password" id="password" name="password" [(ngModel)]="user.password" aria-describedby="password-help" required />
+            </div>
+            <div class="flex flex-column gap-2 text-left mb-4">
+                <label for="confirmPassword">Confirm Password</label>
+                <input pInputText type="password" id="confirmPassword" name="confirmPassword" [(ngModel)]="user.confirmPassword" aria-describedby="confirmPassword-help"
+                    required />
+            </div>
+            <button pButton pRipple label="Register" type="submit" class="w-full p-2 mb-3"></button>
+        </form>
+
+        <div class="text-center">
+            <span class="line-height-3">Already have an account?</span>
+            <a routerLink="/auth/login" class="ml-2 cursor-pointer">Login</a>
+        </div>
+    </div>
+</div>
