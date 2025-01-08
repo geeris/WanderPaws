@@ -12,3 +12,4 @@
 /BudgetBloom.Server/bin
 *.user
 *.suo
+/budgetbloom.client/obj

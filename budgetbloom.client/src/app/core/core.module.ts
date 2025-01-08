@@ -9,12 +9,20 @@ import { GlobalErrorHandler } from './models/globalErrorHandler';
 import { ServerErrorInterceptor } from './interceptors/error-handling.interceptor';
 import { MessageService } from 'primeng/api';
 import { NotificationService } from './services/notification.service';
+import { NavComponent } from './components/nav/nav.component';
+import { LayoutComponent } from './components/layout/layout.component';
+import { RouterModule } from '@angular/router';
+import { MenuModule } from 'primeng/menu';
+import {AvatarModule } from 'primeng/avatar'
 
 @NgModule({
-  declarations: [FooterComponent, HeaderComponent],
+  declarations: [FooterComponent, HeaderComponent, NavComponent, LayoutComponent],
   exports: [FooterComponent, HeaderComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    MenuModule,
+    AvatarModule,
+    RouterModule,
   ],
   providers: [
     {

@@ -1,9 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { DashboardOverviewComponent } from './pages/dashboard-overview/dashboard-overview/dashboard-overview.component';
+import { LayoutComponent } from '../../core/components/layout/layout.component';
+
+// const routes: Routes = [
+//     { path: '', component: DashboardOverviewComponent },
+// ];
 
 const routes: Routes = [
-    { path: '', component: DashboardComponent },
+  {
+    path: '',
+    component: LayoutComponent,
+    children: [
+      {
+        path: '',
+        component: DashboardOverviewComponent,
+      }
+    ]
+  },
 ];
 
 @NgModule({

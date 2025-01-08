@@ -1,0 +1,13 @@
+<p-menu [model]="items" styleClass="w-full md:w-60 p-0">
+    <ng-template pTemplate="start">
+        <h1 class="text-xl font-semibold text-center m-0 px-2 py-3 mb-4">
+            Budget<span class="text-primary">Bloom</span>
+        </h1>
+    </ng-template>
+    <ng-template pTemplate="item" let-item>
+        <a class="flex flex-column justify-content-center align-items-center p-3 nav-item p-menuitem-link" (click)="setAsActive(item)" [ngClass]="{ 'activeNavItem': item.isActive}" [routerLink]="item.routerLink">
+            <span [class]="item.icon" class="mb-2"></span>
+            <span>{{item.label}}</span>
+        </a>
+    </ng-template>
+</p-menu>
