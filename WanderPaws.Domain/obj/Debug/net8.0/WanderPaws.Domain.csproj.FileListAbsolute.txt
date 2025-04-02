@@ -1,0 +1,12 @@
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\bin\Debug\net8.0\WanderPaws.Domain.deps.json
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\bin\Debug\net8.0\WanderPaws.Domain.dll
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\bin\Debug\net8.0\WanderPaws.Domain.pdb
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.AssemblyInfoInputs.cache
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.AssemblyInfo.cs
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.sourcelink.json
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.dll
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\refint\WanderPaws.Domain.dll
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\WanderPaws.Domain.pdb
+C:\Users\Gabrijela\source\repos\WanderPaws\WanderPaws.Domain\obj\Debug\net8.0\ref\WanderPaws.Domain.dll

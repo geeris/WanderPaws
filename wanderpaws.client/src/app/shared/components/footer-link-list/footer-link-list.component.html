@@ -1,0 +1,8 @@
+<div class="flex justify-content-center gap-4 mt-5">
+    <ng-container *ngFor="let link of links">
+        <a [href]="link.href" [target]="link.icon ? '_blank' : null" [rel]="link.icon ? 'noopener' : null">
+            <i *ngIf="link.icon" class="pi" [ngClass]="'pi-' + link.icon"></i>
+            {{ link.label }}
+        </a>
+    </ng-container>
+</div>

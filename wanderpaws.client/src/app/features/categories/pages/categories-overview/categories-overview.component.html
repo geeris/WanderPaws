@@ -1,0 +1,20 @@
+
+
+<p-dialog header="New Category" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+  <div class="flex flex-column gap-2 text-left mb-4">
+    <label for="email">E-mail</label>
+    <input pInputText id="email" name="email" aria-describedby="email-help" required />
+  </div>
+  <div class="flex flex-column gap-2 text-left mb-4">
+    <label for="email">E-mail</label>
+    <input pInputText id="email" name="email" aria-describedby="email-help" required />
+  </div>
+  <div class="flex flex-column gap-2 text-left mb-4">
+    <label for="email">E-mail</label>
+    <input pInputText id="email" name="email" aria-describedby="email-help" required />
+  </div>
+  <div class="flex justify-end gap-2">
+    <p-button label="Cancel" severity="secondary" (click)="visible = false" />
+    <p-button label="Save" (click)="createCategory()" />
+  </div>
+</p-dialog>

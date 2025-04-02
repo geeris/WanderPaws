@@ -1,0 +1,11 @@
+<!-- ovde ce doci konkretan html za centralni sadrzaj dashboard stranice -->
+<div class="text-center p-3 border-round-sm bg-secondary font-bold custom">Dashboard content 12</div>
+<div class="custom">
+    <p> Select a pet:</p>
+    <div class="flex flex-row">
+            <p-dropdown [options]="pets" [(ngModel)]="selectedPet" optionLabel="label" placeholder="Select a pet" class="w-full md:w-56" />
+            <p-selectButton [options]="stateOptions" [(ngModel)]="lostOrFound" optionLabel="label" optionValue="value" aria-labelledby="basic" />
+        
+    </div>
+</div>
+

@@ -1,0 +1,36 @@
+@import 'variables.scss';
+
+app-root, body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a{
+    text-decoration: none;
+    color: $text1;
+}
+
+body{
+    font-size: 14px;
+    color: $text1;
+}
+
+.fontSize12{
+    font-size:13px;
+}
+
+.primaryButtonColor{
+    background-color: $primaryButton1;
+}
+
+body{
+    background-color: $websiteBackground1;
+}
+
+.pi{
+    color: $icons1;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: $headings1;
+}

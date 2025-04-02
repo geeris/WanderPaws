@@ -1,0 +1,28 @@
+<form (ngSubmit)="login()">
+    <!-- Email Field -->
+    <div class="field">
+        <p-inputGroup class="w-full">
+            <p-inputGroupAddon>
+                <i class="pi pi-at"></i>
+            </p-inputGroupAddon>
+            <input pInputText placeholder="E-mail" id="email" name="email" [(ngModel)]="email"
+                aria-describedby="email-help" required
+                class="w-full p-2 border-1 border-solid surface-border border-round" />
+        </p-inputGroup>
+    </div>
+
+    <!-- Password Field -->
+    <div class="field">
+        <p-inputGroup class="w-full">
+            <p-inputGroupAddon>
+                <i class="pi pi-lock"></i>
+            </p-inputGroupAddon>
+            <input pInputText placeholder="Password" type="password" id="password" name="password"
+                [(ngModel)]="password" aria-describedby="password-help" required
+                class="w-full p-2 border-1 border-solid surface-border border-round" />
+        </p-inputGroup>
+    </div>
+
+    <!-- Submit Button -->
+    <button pButton pRipple label="Login" type="submit" class="w-full p-2 mb-3 primaryButtonColor"></button>
+</form>
