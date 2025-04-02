@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "G+ywi7+pfNND5vVkKXM0gT5mfUXyMy5BR8aUrYJKloM=",
+  "Source": "WanderPaws.Server",
+  "BasePath": "_content/WanderPaws.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Gabrijela\\source\\repos\\WanderPaws\\wanderpaws.client\\wanderpaws.client.esproj",
+      "Version": 2,
+      "Source": "wanderpaws.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WanderPaws.Server\\wwwroot",
+      "Source": "WanderPaws.Server",
+      "ContentRoot": "C:\\Users\\Gabrijela\\source\\repos\\WanderPaws\\WanderPaws.Server\\wwwroot\\",
+      "BasePath": "_content/WanderPaws.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
