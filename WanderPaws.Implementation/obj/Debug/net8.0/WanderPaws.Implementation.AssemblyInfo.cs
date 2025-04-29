@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WanderPaws.Implementation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3174a1ecc03160a68b6e13f954972c85a72d3fe5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aba8bb54ce0c420be8720de382f4bb6abc380178")]
 [assembly: System.Reflection.AssemblyProductAttribute("WanderPaws.Implementation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WanderPaws.Implementation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
